@@ -3,7 +3,7 @@ from telebot import types
 import sqlite3 as sql
 from datetime import datetime
 
-bot = telebot.TeleBot("5800628749:AAGNtnVSePdHho3R7dmryKKHyeXduPeHLc4")
+bot = telebot.TeleBot("TokenFromBotFather")
 
 @bot.message_handler(commands=['start'])
 def start(message):
